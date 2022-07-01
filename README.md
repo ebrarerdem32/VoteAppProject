@@ -8,4 +8,7 @@ In the project directory, you can run:
 ### `cd voteapp`
 ### `npm start`
 
+## Deployment Link
+https://vote-app-project.vercel.app/
+
 
