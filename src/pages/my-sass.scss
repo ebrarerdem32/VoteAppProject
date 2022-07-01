@@ -1,0 +1,109 @@
+$myColor: red;
+.home {
+    position: relative;
+    height: 150px;
+  }
+  
+  .home h2 {
+  
+    position: absolute;
+    padding-top: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  
+  }
+
+
+
+
+
+
+.head{
+  text-align: center;
+}
+
+.detail{
+    color: #0060B6;
+}
+
+ul{
+  list-style: none;
+  font-size: 20px;
+} 
+li{
+  margin-bottom: 1vh;
+} 
+
+h2{
+  list-style: none;
+} 
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.card{
+  margin-top: 16vh;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ li:nth-child(1) a{
+ color:red !important;
+
+}
+
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+nav{
+  display: flex;
+align-items: center;
+  background: rgb(233, 233, 233,0.7);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid rgb(216, 112, 147,0.2);
+  height: 8vh;
+  font-size: 16px;
+}
+
+.menu-item{
+  margin-left: 6px;
+}
+button{
+  margin-left: 9px;
+  border: none;
+  color:#c24b9e;
+  border-radius: 1vh;
+
+  cursor: pointer;
+}
+html { 
+  background: url(https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* From https://css.glass */
